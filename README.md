@@ -40,15 +40,19 @@ As part of your pre-work submission, please reflect on the app and answer the fo
 
 **Question 1:** "What are your reactions to the Android app development platform so far? Compare and contrast Android's approach to layouts and user interfaces in past platforms you've used."
 
-**Answer:** [Enter your answer here in a paragraph or two].
+**Answer:** [So far the platform seems to me well adapted and sufficiently rewarding.We find almost everything that could be useful for programming.In the old version of android layout and were much more abstract, now with the constraintLayout positions views are a real pleasure
+.
 
 **Question 2:** "Take a moment to reflect on the `ArrayAdapter` used in your pre-work. How would you describe an adapter in this context and what is its function in Android? Why do you think the adapter is important? Explain the purpose of the `convertView` in the `getView` method of the `ArrayAdapter`."
 
-**Answer:** [Enter your answer here in a paragraph or two].
+**Answer:** [First of all, the Adaptors, which are the objects that manage the data, but not their display or behavior when interacting with the user. An adapter can be thought of as an intermediary between the data and the view that represents that data. In this context we give the adapter a list of elements to treat and the way they should be. 
+
+The adapter is important because instead of managing thousands of information for example one by one it gives the ability to group them together. The adapter uses convertView to recycle old View objects that are no longer used. In this way, ListView can send to the adapter old 'recycled' view objects that are no longer displayed instead of instantiating an entirely new object each time the adapter wants to display a new list item. This is the purpose of the convertView parameter].
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+The problem I had in programming this app is. when I wanted to modify the data to display it in the listview. The problem is that I could not have the value of the selected item by thinking about it, I ended up getting there
 
 ## License
 
