@@ -4,7 +4,7 @@
 
 Submitted by: **Saincurin Peterson Denis**
 
-Time spent: **X** hours spent in total
+Time spent: **36** hours spent in total
 
 ## User Stories
 
